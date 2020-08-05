@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
       squares[squareIDBeingDragged].style.backgroundImage = colorBeingDragged;
     } else {
       console.log('not a alid move');
-      //squares[squareIDBeingDragged].style.backgroundImage = colorBeingDragged;
+      squares[squareIDBeingDragged].style.backgroundImage = colorBeingDragged;
     }
   }
 

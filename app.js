@@ -174,17 +174,20 @@ document.addEventListener('DOMContentLoaded', () => {
       squareIDBeingDragged + width,
     ];
     //what this line does is check if the square ID being replaced
-    // is in the valid moves array. let validMove is a boolean
+    // is in the valid moves array. validMove is a boolean
     let validMove = validMoves.includes(squareIDBeingReplaced);
 
-    if (squareIDBeingReplaced && validMove) {
+    if (validMove) {
       squareIDBeingReplaced = null;
+      console.log('Valid move');
       playWooshSound();
     } else if (squareIDBeingReplaced && !validMove) {
+      console.log('not a alid move');
       squares[squareIDBeingReplaced].style.backgroundImage = colorBeingReplaced;
       squares[squareIDBeingDragged].style.backgroundImage = colorBeingDragged;
     } else {
-      squares[squareIDBeingDragged].style.backgroundImage = colorBeingDragged;
+      console.log('not a alid move');
+      //squares[squareIDBeingDragged].style.backgroundImage = colorBeingDragged;
     }
   }
 

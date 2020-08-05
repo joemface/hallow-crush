@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //score sound
   function playScoreSound() {
-    var snd = new Audio('success.wav'); // buffers automatically when created
+    var snd = new Audio('sounds/success.wav'); // buffers automatically when created
     new Audio().canPlayType('audio/ogg; codecs=vorbis');
     snd.play();
     snd.currentTime = 0;
@@ -44,14 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //confirm sound
   function playConfrimSound() {
-    var snd = new Audio('confirm.wav'); // buffers automatically when created
+    var snd = new Audio('sounds/confirm.wav'); // buffers automatically when created
     new Audio().canPlayType('audio/ogg; codecs=vorbis');
     snd.play();
     snd.currentTime = 0;
   }
   //yay sound
   function playYaySound() {
-    var snd = new Audio('yay.wav'); // buffers automatically when created
+    var snd = new Audio('sounds/yay.wav'); // buffers automatically when created
     new Audio().canPlayType('audio/ogg; codecs=vorbis');
     snd.play();
     snd.currentTime = 0;
@@ -59,28 +59,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //8 bit song
   function play8BitSound() {
-    var snd = new Audio('8bitHalloween.mp3'); // buffers automatically when created
+    var snd = new Audio('sounds/8bitHalloween.mp3'); // buffers automatically when created
     new Audio().canPlayType('audio/ogg; codecs=vorbis');
     snd.play();
     snd.currentTime = 0;
   }
   //woosh sound
   function playWooshSound() {
-    var snd = new Audio('woosh.wav'); // buffers automatically when created
+    var snd = new Audio('sounds/woosh.wav'); // buffers automatically when created
     new Audio().canPlayType('audio/ogg; codecs=vorbis');
     snd.play();
     snd.currentTime = 0;
   }
   //grab sound
   function playGrabSound() {
-    var snd = new Audio('grab.wav'); // buffers automatically when created
+    var snd = new Audio('sounds/grab.wav'); // buffers automatically when created
     new Audio().canPlayType('audio/ogg; codecs=vorbis');
     snd.play();
     snd.currentTime = 0;
   }
   //tap sound
   function playTapSound() {
-    var snd = new Audio('tap.wav'); // buffers automatically when created
+    var snd = new Audio('sounds/tap.wav'); // buffers automatically when created
     new Audio().canPlayType('audio/ogg; codecs=vorbis');
     snd.play();
     snd.currentTime = 0;

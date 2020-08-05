@@ -1,0 +1,19 @@
+{
+  "name": "candy_crush",
+  "version": "1.0.0",
+  "description": "candy crush game for halloween",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemface/hallow-crush.git"
+  },
+  "author": "Justin Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joemface/hallow-crush/issues"
+  },
+  "homepage": "https://github.com/joemface/hallow-crush#readme"
+}

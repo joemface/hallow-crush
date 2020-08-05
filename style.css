@@ -1,0 +1,51 @@
+.grid {
+  /*we want an 8 by 8 grid each 70px wide
+    so we need 560px*/
+  height: 560px;
+  width: 560px;
+
+  /*we don't want the divs stacking on top of each other
+    row by row so we need to say display this as a flex and
+    use that flex to wrap around
+    so that they break and start a new row like a grid*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  background-image: url('Halloween-background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+}
+
+.game-board {
+  margin-top: 30px;
+  left: 350px;
+  padding: 0;
+  margin: 0;
+}
+
+.score-board {
+  display: inline-block;
+  float: left;
+  width: 150px;
+  margin-top: 200px;
+  border: solid black;
+  background-image: linear-gradient();
+  text-align: center;
+}
+
+.background {
+  display: inline-block;
+  float: left;
+  margin: auto;
+  width: 560px;
+  border: 3px solid black;
+  margin-left: 100px;
+  background-color: rgba(114, 114, 114, 0.808);
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+}

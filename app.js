@@ -420,8 +420,8 @@ document.addEventListener('DOMContentLoaded', () => {
       if (notValid.includes(i)) continue;
       //if every index in our row of three array is
       // equal to squares grid color based on decided color
-      // and we make sure it's not blank
-      // index was  created on the fly and passed through an arrow
+      // and we make sure it's not blank then score it.
+      // 'index' was created on the fly and passed through an arrow
       // funcion to act as index 0 to confirm the first box
       // has the same color as the decided color.
       if (
